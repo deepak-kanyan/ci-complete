@@ -1,0 +1,150 @@
+.com { color: #93a1a1; }
+.lit { color: #195f91; }
+.pun, .opn, .clo { color: #93a1a1; }
+.fun { color: #dc322f; }
+.str, .atv { color: #D14; }
+.kwd, .linenums .tag { color: #1e347b; }
+.typ, .atn, .dec, .var { color: teal; }
+.pln { color: #48484c; }
+
+.prettyprint {
+  padding: 8px;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+}
+.prettyprint.linenums {
+  -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+     -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+          box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin: 0 0 0 33px; /* IE indents via margin-left */
+} 
+ol.linenums li {
+  padding-left: 12px;
+  color: #bebec5;
+  line-height: 18px;
+  text-shadow: 0 1px 0 #fff;
+}
+/* new manual css */
+.wysihtml5-toolbar a.btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: #CCCCCC #CCCCCC #B3B3B3;
+    border-image: none;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 0;
+    padding: 4px 5px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+.wysihtml5-toolbar a.btn:hover, .wysihtml5-toolbar a.btn:active, .wysihtml5-toolbar a.btn.active, .btn.disabled, .btn[disabled] {
+    background-color: #E6E6E6;
+}
+.btn:active, .btn.active {
+}
+.btn:first-child {
+}
+.wysihtml5-toolbar a.btn:hover {
+    background-color: #E6E6E6;
+    
+    color: #333333;
+    text-decoration: none;
+    transition: background-position 0.1s linear 0s;
+}
+.wysihtml5-toolbar a.btn:focus {
+    outline: thin dotted #333333;
+    outline-offset: -2px;
+}
+.wysihtml5-toolbar a.btn.active, .btn:active {
+    background-color: #E6E6E6;
+    background-image: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    outline: 0 none;
+}
+.wysihtml5-toolbar a.btn.disabled, .btn[disabled] {
+    background-color: #E6E6E6;
+    background-image: none;
+    box-shadow: none;
+    cursor: default;
+    opacity: 0.65;
+}
+.btn-group > .btn, .btn-group > .dropdown-menu {
+    font-size: 10px !important;
+}
+.wysihtml5-sandbox
+{
+	  -moz-box-sizing: content-box !important;
+    background-color: #FFFFFF !important;
+    border-collapse: separate !important;
+    border-color: #CCCCCC !important;
+    border-radius: 3px 3px 3px 3px !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    bottom: auto !important;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.075) inset !important;
+    clear: none !important;
+    display: inline-block !important;
+    float: none !important;
+    left: auto !important;
+    margin: 0 0 9px !important;
+    outline: 0 none #000000 !important;
+    outline-offset: 0 !important;
+    padding: 4px !important;
+    position: static !important;
+    right: auto !important;
+    text-align: start !important;
+    top: auto !important;
+    vertical-align: top !important;
+    z-index: auto !important;
+}
+[class^="icon-"]:last-child, [class*=" icon-"]:last-child {
+}
+.icon-list {
+    background-position: -360px -48px !important;
+}
+.icon-th-list {
+    background-position: -264px 0 !important;
+}
+.icon-indent-right {
+    background-position: -408px -48px !important;
+}
+.icon-indent-left {
+    background-position: -384px -48px !important;
+}
+.icon-share {
+    background-position: -120px -72px !important;
+}
+.icon-picture {
+    background-position: -456px -48px !important;
+}
+.icon-pencil{
+	background-position:  0 -72px !important;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    background-image: url("../images/glyphicons-halflings.png") !important;
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+    display: inline-block !important;
+    height: 14px !important;
+    line-height: 14px !important;
+    vertical-align: text-top !important;
+    width: 14px !important;
+}

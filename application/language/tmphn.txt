@@ -1,0 +1,5 @@
+<?php
+$slang['login'] = 'Login'; 
+$slang['logout'] = 'Logout'; 
+$slang['home'] = 'Home'; 
+?>

@@ -1,0 +1,605 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<title>Manage Success Stories</title>
+<link href="Manage%20Success%20Stories_files/style.css" rel="stylesheet">
+<link href="Manage%20Success%20Stories_files/font-awesome.css" rel="stylesheet">
+<link href="Manage%20Success%20Stories_files/font-awesome_002.css" rel="stylesheet">
+<script src="Manage%20Success%20Stories_files/jquery-1.js"></script>
+<script src="Manage%20Success%20Stories_files/jquery_002.js"></script>
+<!--link href="http://localhost/car2udirect/assets/interprator/css/sumoselect.css" rel="stylesheet" /-->
+<script src="Manage%20Success%20Stories_files/jquery.js"></script>
+<script src="Manage%20Success%20Stories_files/additional-methods.js"></script>
+
+<!--script src="http://localhost/car2udirect/assets/cdadmin/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://localhost/car2udirect/assets/cdadmin/sweetalert/dist/sweetalert.css"-->
+<script>
+	
+$(document).on('click','.slide-menu',function(){
+   
+		$('.sub-menu').not($(this).find(".sub-menu")).hide();
+        
+        $(this).find(".sub-menu").slideToggle();
+        $(this).find(".sub-menu-inner").hide();
+        $(this).find('.fa-angle-down, .fa-angle-up').toggleClass('fa-angle-down fa-angle-up');        
+   
+});
+
+</script></head>
+
+
+
+
+
+<body>
+	
+	<header>
+		
+		<div id="wrapper2">
+			
+			<div class="header-base">
+				
+				<div class="logo-div">
+					<a href="http://localhost/car2udirect/cdadmin/dashboard"><img src="Manage%20Success%20Stories_files/mylogo.jpg"></a>
+				</div>
+				
+				<div class="header-right-main">
+				<nav class="dashboard-nav">
+					<div class="welcometxt"> <h2>Welcome <span></span></h2></div>
+					<ul><li><a href="http://localhost/car2udirect/cdadmin/logout" class="active sign-out">Logout</a></li>
+						
+					</ul>
+				</nav>
+				
+				<div class="navi-outer">
+					<ul>
+						<li> 
+							<a href="http://localhost/car2udirect/cdadmin/dashboard"> Dashboard </a> 
+						</li>	
+						<li class="slide-menu"> 
+							<a class="" href="#">Manage Master Data <i class="fa menu-down fa-angle-up"></i> </a> 
+							<ul style="display: block; overflow: hidden; height: 1px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;" class="sub-menu">
+							<li>
+								<a href="http://localhost/car2udirect/cdadmin/pages/manage"> Content pages</a>		
+							</li>	
+							<li>
+								<a href="http://localhost/car2udirect/cdadmin/successStories"> Success stories</a>		
+							</li>	
+							<li>
+								<a href="http://localhost/car2udirect/cdadmin/faq"> FAQ</a>		
+							</li>	
+							<li> 
+								<a class="" href="javascript:void(0);"> Career <i class="fa fa-angle-right menu-right"></i> </a>
+								<ul class="sub-menu sub-menu-inner" style="display: none; overflow: hidden; height: 1px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+									
+									<li> 
+										<a class="" href="http://localhost/car2udirect/cdadmin/category"> Category </a>
+									</li>
+									<li> 
+										<a class="" href="http://localhost/car2udirect/cdadmin/positions"> Position 
+										</a>
+									</li>
+								</ul>
+							 </li>	
+							</ul>
+						</li>
+						<li class="slide-menu"> 
+							<a class="" href="#">Manage Settings <i class="fa fa-angle-down menu-down"></i> </a> 
+							<ul style="display: none;" class="sub-menu">
+								<li> 
+									<a href="http://localhost/car2udirect/cdadmin/changepassword"> Change Password  </a> 
+								</li>
+								
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+				</div>
+			</div>
+		
+		</div>
+		
+	</header>
+	
+	
+<div class="border-div"></div>	
+<div class="clr"></div>
+<script>
+	setTimeout(function(){ $('#succ_flash').fadeOut('slow'); }, 5000);
+</script>
+<div class="hotel-listing">
+	<div class="regi-main">
+		
+		<div id="wrapper2">
+			<div class="my-account">
+				<div class="messages"> 
+
+						
+					
+									</div>
+				<div class="myaccount-outer">
+					<!--div class="my-account-left">
+						<ul class="dashboard-listing">
+							<!--li class="manage-hosptial 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: page</p>
+<p>Filename: cdadmin/template.php</p>
+<p>Line Number: 134</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/application/views/cdadmin/template.php<br />
+			Line: 134<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/application/controllers/cdadmin/Admin.php<br />
+			Line: 346<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/index.php<br />
+			Line: 292<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>"><a href="http://localhost/car2udirect/cdadmin/manage_user">Manage Users </a></li-->
+							<!--li class="manage-hosptial 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: page</p>
+<p>Filename: cdadmin/template.php</p>
+<p>Line Number: 135</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/application/views/cdadmin/template.php<br />
+			Line: 135<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/application/controllers/cdadmin/Admin.php<br />
+			Line: 346<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/index.php<br />
+			Line: 292<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>"><a href="http://localhost/car2udirect/cdadmin/manage_languages">Manage Languages </a></li-->
+							<!--li class="dashboard 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: page</p>
+<p>Filename: cdadmin/template.php</p>
+<p>Line Number: 136</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/application/views/cdadmin/template.php<br />
+			Line: 136<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/application/controllers/cdadmin/Admin.php<br />
+			Line: 346<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/index.php<br />
+			Line: 292<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>"><a href="http://localhost/car2udirect/cdadmin/dashboard">Dashboard</a></li>
+							<li class="change_pwd 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: page</p>
+<p>Filename: cdadmin/template.php</p>
+<p>Line Number: 137</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/application/views/cdadmin/template.php<br />
+			Line: 137<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/application/controllers/cdadmin/Admin.php<br />
+			Line: 346<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/index.php<br />
+			Line: 292<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>"><a href="http://localhost/car2udirect/cdadmin/changepassword">Change Password </a></li>
+							<li class="manage_user 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: page</p>
+<p>Filename: cdadmin/template.php</p>
+<p>Line Number: 138</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/application/views/cdadmin/template.php<br />
+			Line: 138<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/application/controllers/cdadmin/Admin.php<br />
+			Line: 346<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/index.php<br />
+			Line: 292<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>"><a href="http://localhost/car2udirect/cdadmin/manage_user/task/search/search/all">Manage Users </a></li>
+							<li class="manage_user 
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: page</p>
+<p>Filename: cdadmin/template.php</p>
+<p>Line Number: 139</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/application/views/cdadmin/template.php<br />
+			Line: 139<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/application/controllers/cdadmin/Admin.php<br />
+			Line: 346<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /var/www/html/car2udirect/index.php<br />
+			Line: 292<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>"><a href="http://localhost/car2udirect/cdadmin/manage_languages">Manage Languages </a></li>
+						</ul-->
+					
+					<div class="account-right-div">
+						    
+<script>
+		
+		
+		function changeSortOrder($category_id,$level)
+		{			
+			$.ajax({
+				url: 'http://localhost/car2udirect/cdadmin/categories/changeSortOrder/'+$category_id+'/'+$level,
+				success: function (result)
+				{
+					//alert(result);
+					location.reload();
+					//console.log(result);
+				},
+				error: function (request,error)
+				{
+					   //alert('Network error has occurred please try again!');
+				}
+			});			
+		}
+		
+		
+		
+			
+</script>
+    <div class="dashboard-heading">
+		<h2>
+			Manage Success Stories		</h2>
+		<a href="javascript:void(0);" id="add_position" class="add-user"><i></i><span>Add Open Position</span></a>
+    </div>
+
+    <div class="dashboard-inner">
+        <div class="dash-search">                       
+        </div>
+
+        <div class="main-dash-summry Edit-profile nopadding11">
+            <!--table-->
+            <div class="my_table_div">
+                <table class="fixes_layout">
+                    <thead>
+                        <tr>
+                            <th class="forWidthSno"> <h1 class=""> S.No. </h1> </th>
+                            <th>
+								
+									<h1 class="">
+										Category 
+									</h1>
+								
+                            </th>
+                            <th>
+								
+									<h1 class="">
+										Position title
+									</h1>
+								
+                            </th>						
+							<th> 
+									<h1 class=""> 
+										Description 
+									</h1> 
+							</th>
+							<th> 
+									<h1 class=""> 
+										Location 
+									</h1> 
+							</th>
+							<th> 
+									<h1 class=""> 
+										Type 
+									</h1> 
+							</th>
+							<th class="user-center"> <h1 class=""> Status </h1> </th>
+							<th> 
+									<h1 class=""> 
+										Action 
+									</h1> 
+							</th>
+							                           
+                        </tr>
+                    </thead>
+                    <tbody>
+                        							<tr>
+								<td colspan="4" style="text-align:center;">No result found.</td>
+							</tr>
+													</tbody>
+
+					</table>
+					<!--end-->
+				</div>
+				<div class="pagination">
+									</div>
+			</div>
+		</div>
+		<style>
+			.up_icon {
+				  height: 20px;
+				}
+			
+			
+			.my_table_div .action-main-block a{
+			border-radius: 3px;
+			width: 33px;}
+			
+			.wide > span {
+			text-transform: capitalize;
+		}
+		
+		.edit_popup{display:none;}
+		.thera_access, .thera_access_edit{
+		  margin-top: 10px;
+		}
+		</style> 
+		
+		<script>
+			
+			$(document).ready(function(){
+				var base_url = 'http://localhost/car2udirect/';
+				
+				$('#add_position').on('click',function(){
+					window.location.href = base_url+'cdadmin/addCareerPosition';
+				});
+				
+				
+				
+				$('.edit_position').on('click',function(){
+					
+					var category_id = $(this).attr('data-id');
+					if(category_id){
+						window.location.href= base_url+"cdadmin/editCareerPostion/"+category_id;
+					}
+					else{
+						return false;
+					}		
+				});
+				
+				$('.change_status').click(function()
+				{
+					var id = $(this).attr('data-id');
+					var sid = $(this).attr('data-sid');
+					if(confirm('Are you sure, you want to change category status?'))
+					{
+							window.location.href = base_url+'cdadmin/changeLocationsStatus/'+id+'/'+sid;
+							
+					}
+				});
+				$('.delposition').click(function()
+				{
+					var id = $(this).attr('data-id');
+					if(confirm('if you delete this category, all the resources of this category will also be deleted.\nAre you sure, you want to delete category?'))
+					{
+						window.location.href = base_url+"cdadmin/deleteCareerPosition/"+id;
+					}
+				});
+			});</script>
+		
+				</div>
+			
+			</div>
+			
+		</div>
+		
+	</div>
+
+</div>
+<footer>
+	<div class="wrapper">
+		<p>Copyright©2015 securenest.org. All rights reserved </p>
+	</div>
+</footer>
+
+
+
+
+</div></body></html>
